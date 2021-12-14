@@ -78,11 +78,12 @@
   INF  OpenCorePkg/Legacy/BootPlatform/LegacyRegion2Dxe/LegacyRegion2Dxe.inf
 
   # IDE/AHCI
-  INF  MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
-  INF  MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
-  INF  MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf
-  INF  MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf
-  INF  MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf
+  INF  IntelFrameworkModulePkg/Csm/BiosThunk/BlockIoDxe/BlockIoDxe.inf
+  #INF  MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
+  #INF  MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
+  #INF  MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf
+  #INF  MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf
+  #INF  MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf
 
   # USB (UHCI may be used for input, XHCI cannot be booted from)
   INF  MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf
