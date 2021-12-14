@@ -78,8 +78,9 @@
   INF  OpenCorePkg/Legacy/BootPlatform/LegacyRegion2Dxe/LegacyRegion2Dxe.inf
 
   # IDE/AHCI
-  INF  IntelFrameworkModulePkg/Csm/LegacyBiosDxe/LegacyBiosDxe.inf
-  INF  IntelFrameworkModulePkg/Csm/BiosThunk/BlockIoDxe/BlockIoDxe.inf
+  INF  LegacyBios/BlockIoDxe/BlockIoDxe.inf
+  #INF  IntelFrameworkModulePkg/Csm/LegacyBiosDxe/LegacyBiosDxe.inf
+  #INF  IntelFrameworkModulePkg/Csm/BiosThunk/BlockIoDxe/BlockIoDxe.inf
   #INF  MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
   #INF  MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
   #INF  MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf
