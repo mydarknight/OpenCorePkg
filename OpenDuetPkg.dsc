@@ -182,11 +182,12 @@
   FatPkg/EnhancedFatDxe/Fat.inf
 
   # IDE/AHCI Support
-  MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
-  MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
-  MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf
-  MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf
-  MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf
+  IntelFrameworkModulePkg/Csm/BiosThunk/BlockIoDxe/BlockIoDxe.inf
+  #MdeModulePkg/Bus/Pci/SataControllerDxe/SataControllerDxe.inf
+  #MdeModulePkg/Bus/Ata/AtaAtapiPassThru/AtaAtapiPassThru.inf
+  #MdeModulePkg/Bus/Ata/AtaBusDxe/AtaBusDxe.inf
+  #MdeModulePkg/Bus/Scsi/ScsiBusDxe/ScsiBusDxe.inf
+  #MdeModulePkg/Bus/Scsi/ScsiDiskDxe/ScsiDiskDxe.inf
 
   # Usb Support
   MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf
