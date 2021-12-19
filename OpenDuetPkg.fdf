@@ -91,7 +91,7 @@
   INF  MdeModulePkg/Bus/Pci/UhciDxe/UhciDxe.inf
   INF  MdeModulePkg/Bus/Pci/EhciDxe/EhciDxe.inf
   INF  MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
-  INF  MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
+  # INF  MdeModulePkg/Bus/Usb/UsbMassStorageDxe/UsbMassStorageDxe.inf
 
   # ISA (e.g. PS/2 devices)
   INF  OvmfPkg/SioBusDxe/SioBusDxe.inf
